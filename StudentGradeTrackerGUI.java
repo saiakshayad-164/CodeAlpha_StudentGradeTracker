@@ -143,6 +143,7 @@ public class StudentGradeTrackerGUI extends JFrame {
     }
 
     public static void main(String[] args) {
+    SwingUtilities.invokeLater(() -> {
         new StudentGradeTrackerGUI().setVisible(true);
-    }
+    });
 }
