@@ -1,55 +1,54 @@
-#  Student Grade Tracker (Java)
+# 🎓 Student Grade Tracker (Java)
 
-##  Overview
+## 📌 Overview
 
 This project is a Java-based application developed as part of the CodeAlpha Internship. It helps manage and analyze student grades efficiently.
 
-##  Features
+## 🚀 Features
 
 * Input marks for multiple students
-* Input validation (marks between 0–100)
+* Input validation (0–100)
 * Calculates:
 
-  *  Average marks
-  *  Highest marks
-  *  Lowest marks
-* Assigns grades:
+  * Average
+  * Highest
+  * Lowest
+* Grade System:
 
   * A (90+)
   * B (75–89)
   * C (50–74)
   * F (<50)
-* Displays a clean summary report
+* GUI version using Java Swing
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 * Java
+* Swing (GUI)
 * ArrayList
-* Object-Oriented Programming concepts
 
-##  How to Run
+## ▶️ How to Run
 
-1. Compile the program:
-   javac StudentGradeTracker.java
+### Console Version:
 
-2. Run the program:
-   java StudentGradeTracker
+```
+javac StudentGradeTracker.java
+java StudentGradeTracker
+```
 
-##  Project Structure
+### GUI Version:
 
-CodeAlpha_StudentGradeTracker/
-│
-├── StudentGradeTracker.java
-├── README.md
+```
+javac StudentGradeTrackerGUI.java
+java StudentGradeTrackerGUI
+```
 
-##  Learning Outcomes
+## 📂 Project Structure
 
-* Java fundamentals
-* Loops and conditionals
-* Data structures (ArrayList)
-* Input validation
-* Problem-solving skills
+* StudentGradeTracker.java
+* StudentGradeTrackerGUI.java
+* README.md
 
-##  Internship
+## 🎯 Internship
 
-This project is submitted as part of the CodeAlpha Java Programming Internship.
+This project is part of the CodeAlpha Java Programming Internship.
